@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.example.administrator.myview.view.PopuView
+        android:id="@+id/po"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:ridus="5dp"
+        app:popu_bg="@color/colorAccent"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:background="#5a8c9bca"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <com.example.administrator.myview.view.Progress80
+            android:id="@+id/pro"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            />
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</LinearLayout>

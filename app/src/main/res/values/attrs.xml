@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="chartview">
+
+        <attr name="big_chart_r" format="dimension"></attr>
+
+        <attr name="small_chart_r" format="dimension"></attr>
+
+        <attr name="chart_bg" format="color"></attr>
+
+    </declare-styleable>
+
+    
+    
+    <declare-styleable name="ChartLineView">
+        
+        <!--<attr name=""-->
+
+    </declare-styleable>
+
+
+    <declare-styleable name="PopuView">
+        <attr name="ridus" format="dimension"></attr>
+        <attr name="popu_bg" format="color"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="YingYongBao">
+        
+        <attr name="color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaveLine">
+
+        <attr name="height" format="dimension"></attr>
+
+    </declare-styleable>
+    
+</resources>

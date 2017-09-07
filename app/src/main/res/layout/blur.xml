@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/blur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/alph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--<com.example.administrator.myview.viewanimator.RoundScrollview-->
+        <!--android:id="@+id/scroll"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/t1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="app_name"-->
+                    <!--android:layout_marginTop="500dp"-->
+                    <!--android:gravity="bottom"-->
+                    <!--android:textSize="50sp"-->
+                    <!--/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_below="@+id/t1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="vertical">-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t2"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t3"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t4"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t5"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t6"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t7"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t8"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t9"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/t10"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="200dp"-->
+                        <!--android:text="@string/app_name"-->
+                        <!--android:textSize="50sp"-->
+                        <!--/>-->
+
+
+                <!--</LinearLayout>-->
+
+            <!--</RelativeLayout>-->
+
+    <!--</com.example.administrator.myview.viewanimator.RoundScrollview>-->
+
+
+</FrameLayout>

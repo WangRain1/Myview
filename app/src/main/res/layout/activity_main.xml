@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/load_yellow"
+    tools:context="com.example.administrator.myview.MainActivity">
+
+    <com.example.administrator.myview.viewanimator.MyS
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@mipmap/meinv"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:onClick="chart"
+                android:layout_margin="2dp"
+                android:text="paint和坐标基础--图表"
+                />
+
+            <Button
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="dialog--基本绘图"
+                android:layout_margin="2dp"
+                android:onClick="dialog"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="贝塞尔路径"
+                android:layout_margin="2dp"
+                android:onClick="bsp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="字体变色/贝塞尔路径"
+                android:layout_margin="2dp"
+                android:onClick="change_text"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_margin="2dp"
+                android:layout_height="45dp"
+                android:text="animator属性动画--物理特征"
+                android:onClick="animatorcicle"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Path的深入使用"
+                android:layout_margin="2dp"
+                android:onClick="searchview"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:text="Path高级--SVG动画"
+                android:onClick="svg"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="图片动态高斯模糊"
+                android:layout_margin="2dp"
+                android:onClick="blur"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="波浪"
+                android:layout_margin="2dp"
+                android:onClick="heart"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="下雨动画效果"
+                android:onClick="rain"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="共享动画"
+                android:onClick="share"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="滴滴打车倒计时"
+                android:onClick="didi"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="三阶贝塞尔"
+                android:onClick="love"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="ViewDragHelper-简单拖拽"
+                android:onClick="drag"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="ViewDragHelper-仿美团订单界面"
+                android:onClick="drag2"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="电力能力"
+                android:onClick="power"
+                     />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="xformode-混排"
+                android:onClick="xformode"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="仿百度贴吧加载动画"
+                android:onClick="qx"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="曲线运动"
+                android:onClick="yyb"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="波浪小船动画"
+                android:onClick="wave"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="四方形"
+                android:onClick="matrix"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="三角形"
+                android:onClick="gl_tr"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="圆"
+                android:onClick="gl_oval"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="正方体"
+                android:onClick="gl_cube"
+                />
+
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:text="matrix1"
+            android:onClick="matrix1"
+            />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2dp"
+                android:text="recycler"
+                android:onClick="recycler"
+                />
+        </LinearLayout>
+
+    </com.example.administrator.myview.viewanimator.MyS>
+
+
+</LinearLayout>

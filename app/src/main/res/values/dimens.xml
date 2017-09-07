@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="pwidth">300dp</dimen>
+    <dimen name="pheight">200dp</dimen>
+    <dimen name="start_position">-50dp</dimen>
+</resources>
